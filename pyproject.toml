@@ -4,11 +4,13 @@ version = "0.1.0"
 description = ""
 authors = ["kato-mahiro <kato.mahiro.3@gmail.com>"]
 readme = "README.md"
+packages = [{include = "app"}]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<4.0"
 supabase = "^2.10.0"
 panel = "^1.5.4"
+python-dotenv = "^1.0.1"
 
 
 [build-system]
